@@ -1,6 +1,5 @@
 import Geodesic
-
-public let WGS84 = (a: 6378137.0, f: 1 / 298.257223563)
+import GTSCommon
 
 public struct InverseResult {
   public var s12: Double = Double.nan
