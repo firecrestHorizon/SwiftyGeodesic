@@ -2,15 +2,15 @@ import Geodesic
 import GTSCommon
 
 public struct InverseResult {
-  public var s12: Double = Double.nan
-  public var az1: Double = Double.nan
-  public var az2: Double = Double.nan
+  public var s12: Double = 0.0
+  public var az1: Double = 0.0
+  public var az2: Double = 0.0
 }
 
 public struct DirectResult {
-  public var lat2: Double = Double.nan
-  public var lon2: Double = Double.nan
-  public var az2: Double = Double.nan
+  public var lat2: Double = 0.0
+  public var lon2: Double = 0.0
+  public var az2: Double = 0.0
 }
 
 public func inverse(p1: (lat: Double, lon: Double), p2: (lat: Double, lon: Double), ellipsoid: (a: Double, f: Double) = WGS84) -> InverseResult {
