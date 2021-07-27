@@ -44,7 +44,7 @@ let p2FwdAzimuth = invResult.az2  // 107.97130749 - forward bering at LHR
 
 ``` swift
 dependencies: [
-        .package(url: "https://github.com/KieranConlon/SwiftyGeodesic.git", from: "1.0.0"),
+        .package(url: "https://github.com/firecrestHorizon/SwiftyGeodesic.git", from: "1.0.0"),
     ],
 ```
 
